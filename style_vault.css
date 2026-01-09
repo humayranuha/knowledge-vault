@@ -167,7 +167,7 @@ nav a:hover{
 
 #problem .problem-info:hover {
     box-shadow: #d84848 0px 10px 25px;
-    background-color: brown;
+    background-color: lightgreen;
 }
 
 #solutions{
@@ -216,4 +216,31 @@ nav a:hover{
     font-weight: 500;
     line-height: 26px;
     margin-bottom: 20px;
+}
+
+#more{
+    width: 100%;
+    height: 400px;
+    background-color: #f5f5f5;
+}
+
+#more .more-sect{
+    width: 80%;
+    max-width: 1240px;;
+    margin:0 auto;
+    padding: 100px 100px;
+    text-align: center;
+    align-items: center;
+}
+
+#more .more-sect h1{
+    margin: 10px;
+}
+
+#more .more-sect p{
+    margin: 10px;
+}
+
+#more .more-sect .btn{
+    margin: 10px;
 }
